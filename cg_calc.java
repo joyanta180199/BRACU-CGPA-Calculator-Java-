@@ -20,6 +20,7 @@ int j= sc.nextInt();
   //System.out.println("Please give me your credit hours");
   //credit_hours = sc.nextFloat();
   //let's fix credit hours
+  //adsjkghjksadghsajkdhsadjkhkljsadhnljk
   credit_hours = 3;
   total_hours = total_hours + credit_hours;
   weighted_gpa = gpa * credit_hours;

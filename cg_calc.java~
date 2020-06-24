@@ -2,7 +2,7 @@ import java.util.*;
 public class cg_calc{
  public static void main(String args[]){  
 
-float weighted_gpa = 0; *gpa * credit hours
+float weighted_gpa = 0; //gpa * credit hours
 float total_weighted_gpa = 0;
 float gpa = 0;
 float credit_hours = 0;
@@ -17,8 +17,10 @@ int j= sc.nextInt();
  for(int i=0;i<j;i++){
   System.out.println("Please give me your cg");
   gpa = sc.nextFloat();
-  System.out.println("Please give me your credit hours");
-  credit_hours = sc.nextFloat();
+  //System.out.println("Please give me your credit hours");
+  //credit_hours = sc.nextFloat();
+  //let's fix credit hours
+  credit_hours = 3;
   total_hours = total_hours + credit_hours;
   weighted_gpa = gpa * credit_hours;
   total_weighted_gpa = total_weighted_gpa + weighted_gpa;
